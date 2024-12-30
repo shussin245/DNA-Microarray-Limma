@@ -1,0 +1,3 @@
+SpotType	ID	Name	Color
+gene	*	*	black
+control	control	*	red

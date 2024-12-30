@@ -1,0 +1,5 @@
+SlideNumber	FileName	Cy3	Cy5	Date
+81	swirl.1.spot	swirl	wild type	2001/9/20
+82	swirl.2.spot	wild type	swirl	2001/9/20
+93	swirl.3.spot	swirl	wild type	2001/11/8
+94	swirl.4.spot	wild type	swirl	2001/11/8
