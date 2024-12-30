@@ -1,10 +1,10 @@
-setwd("~/swirl")
+setwd("swirl")
 library(limma)
 targets <- readTargets("SwirlSample.txt")
 RG <- read.maimages(targets, source="spot")
 RG
 
-setwd("~/swirl")
+setwd("swirl")
 RG$genes <- readGAL("fish.gal")
 RG$printer <- getLayout(RG$genes)
 
