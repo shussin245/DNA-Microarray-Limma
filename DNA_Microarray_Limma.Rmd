@@ -3,13 +3,13 @@ title: "Analyzing DNA Microarray Data in RStudio with Bioconductor and R"
 author: "Sara Hussin"
 date: "November 20, 2024"
 output:
+  pdf_document:
+    number_sections: yes
+    toc: yes
   html_document:
     highlight: tango
     number_sections: yes
     theme: united
-    toc: yes
-  pdf_document:
-    number_sections: yes
     toc: yes
   word_document:
     toc: yes
@@ -46,7 +46,7 @@ The Limma User Guide describes this data as follows:
 We consulted the Limma User Guide (pages 76 and 77) to identify the "targets" file containing metadata about the samples hybridized to the four arrays in this experiment. The name of the file was added to the following code chunk, in the call to `readTargets`. This parametrized the subsequent call to `read.maimages`, which used filenames for image data from each microarray, returning a Limma `RGlist` object.
 
 ```{r}
-setwd("~/swirl")
+setwd("swirl")
 library(limma)
 targets <- readTargets("SwirlSample.txt")
 RG <- read.maimages(targets, source="spot")
@@ -56,7 +56,7 @@ RG
 Similarly, on page 78, we identified the "GAL" file containing metadata about the genes spotted on the arrays. The file name was included in the following code chunk, in the call to `readGAL`.
 
 ```{r}
-setwd("~/swirl")
+setwd("swirl")
 RG$genes <- readGAL("fish.gal")
 RG$printer <- getLayout(RG$genes)
 ```
