@@ -57,8 +57,8 @@ repo/
 
 ### Running the Analysis
 1. Open terminal.
-2. Clone this repository: `git clone https://github.com/yourusername/your-repo-name.git`
-3. `cd your-repo-name`
+2. Clone this repository: `git clone https://github.com/shussin245/DNA-Microarray-Limma.git`
+3. `cd DNA-Microarray-Limma`
 4. Open the DNA_Microarray_Analysis.Rmd file in RStudio.
 5. Run the analysis by knitting the R Markdown file to the desired output format (HTML, PDF, Word).
 
@@ -72,7 +72,7 @@ The results include:
 ## References
 
 1. Smyth, G. K. (2005). Limma: Linear models for microarray data. In Bioinformatics and Computational Biology Solutions Using R and Bioconductor (pp. 397-420). Springer.
-2. Limma User Guide.
+2. *Limma User Guide*.
 
 ## Acknowledgments
 
